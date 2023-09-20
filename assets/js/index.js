@@ -22,6 +22,7 @@ sections.push(document.getElementById("about"));
 sections.push(document.getElementById("a1"));
 sections.push(document.getElementById("a2"));
 sections.push(document.getElementById("a3"));
+sections.push(document.getElementById("a4"));
 sections.push(document.getElementById("components"));
 sections.push(document.getElementById("downloads"));
 window.addEventListener("scroll", scrollBehavior, { passive: true });
