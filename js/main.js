@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+$('.navegacion .menu').css({'left':'0px'}); // Mostramos el menu
 	// MOSTRANDO Y OCULTANDO MENU
 	$('#button-menu').click(function(){
 		if($('#button-menu').attr('class') == 'fa fa-bars' ){
