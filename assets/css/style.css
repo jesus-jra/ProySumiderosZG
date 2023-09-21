@@ -21,7 +21,8 @@ section {
     align-self: center;
     display: flex;
     flex-flow: column nowrap;
-    width: 80%;
+	border: #0D0C0C;
+    border:1px outset #413C3C;
 }
 
 p {
