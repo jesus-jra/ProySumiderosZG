@@ -6,7 +6,7 @@ $(document).ready(function(){
 
 			$('.navegacion').css({'width':'100%', 'background':'rgba(0,0,0,.5)'}); // Mostramos al fondo transparente
 			$('#button-menu').removeClass('fa fa-bars').addClass('fa fa-close'); // Agregamos el icono X
-			$('.navegacion .menu').css({'left':'0px'}); // Mostramos el menu
+			
 
 		} else{
 
