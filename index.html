@@ -9,19 +9,31 @@ Proyecto: -->
   <title>ProyectoSumiderosZ&G</title>
 	
   <link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
-  <link rel="stylesheet" href="https://drive.google.com/uc?export=download&id=1V61OQxmix0liEwAnfPPAoF-cs6P9Vka4" />
-  <link rel="stylesheet" href="https://drive.google.com/uc?export=download&id=11qjAPia6CI9EPQ2Q0LFeoEYK-6My-wsv" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/variables.css" />
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/main.js"></script>
 </head>
 
 <body>
   <!-- Sidebar -->
-  <aside id="sidebar" class="sidebar">
-    <ul class="sidebar__menu">
-      <!-- Logo del sitio -->
-      <li class="sidebar__item">
-        <div class="logo">
-          <img class="logo__img" src="assets/img/logo2.jpg">
+ 
+	  
+	  
+	  <header>
+		
+
+		<nav class="navegacion">
+			<ul class="menu">
+				
+				<!-- TITULAR -->
+				 <div class="logo">
+          <img class="logo__img" width="150" height="150" src="assets/img/logo2.jpg">
           <!-- Título del sitio -->
           <a class="sidebar__titulo" href="#">
           <span class="sidebar__titulo sidebar__titulo-destacado">SUMIDEROS Z&G<span>
@@ -29,76 +41,42 @@ Proyecto: -->
             </span>
           </a>
         </div>
-      </li>
-      <li class="sidebar__item">
-        <a class="sidebar__link active" href="#about">
-          <i class='bx bxs-directions sidebar__icon'></i>
-          <span class="sidebar__text">DIAGNOSTICO&nbsp;</span>
-        </a>
-        <ul class="sidebar__submenu">
-          <li class="submenu__item">
-            <a class="submenu__link" href="#a1">
-              <span class="submenu__text">Area de Estudio&nbsp;&nbsp;</span>
-            </a>
-          </li>
-          <li class="submenu__item">
-            <a class="submenu__link" href="#a2">
-              <span class="submenu__text">Mision/Visión&nbsp;</span>
-            </a>
-          </li>
-          <li class="submenu__item">
-            <a class="submenu__link" href="#a3">
-              <span class="submenu__text">Organigrama&nbsp;</span>
-				
-            </a>
-          </li>
-			
-			  <li class="submenu__item">
-            <a class="submenu__link" href="#a4">
-              <span class="submenu__text">Cronograma&nbsp;</span>
-				
-            </a>
-          </li>
-			
-        </ul>
-      </li>
-      <li class="sidebar__item">
-        <a class="sidebar__link" href="#components">
-          <i class='bx bxs-extension bx-rotate-270 sidebar__icon'></i>
-          <span class="sidebar__text">PLANIFICACIÓN</span>
-        </a>
-      </li>
-	     <li class="sidebar__item">
-        <a class="sidebar__link" href="#components">
-          <i class='bx bxs-extension bx-rotate-270 sidebar__icon'></i>
-          <span class="sidebar__text">EJECUCIÓN</span>
-        </a>
-      </li>
-	     <li class="sidebar__item">
-        <a class="sidebar__link" href="#components">
-          <i class='bx bxs-extension bx-rotate-270 sidebar__icon'></i>
-          <span class="sidebar__text">EVLUACIÓN</span>
-        </a>
-      </li>
-      <li class="sidebar__item">
-        <a class="sidebar__link" href="#downloads">
-          <i class='bx bxs-download sidebar__icon'></i>
-          <span class="sidebar__text">DESCARGAS</span>
-        </a>
-      </li>
-    </ul>
-  </aside>
+				<!-- TITULAR -->
+
+				<li><a href="#a1"><span class="fa fa-home icon-menu"></span>Inicio</a></li>
+
+				<li class="item-submenu" menu="1">
+					<a href="#"><span class="fa fa-suitcase icon-menu"></span>Servicios</a>
+					<ul class="submenu">
+						<li class="title-menu"><span class="fa fa-suitcase icon-menu"></span>Servicios</li>
+						<li class="go-back">Atras</li>
+
+						<li><a href="#">Diseño web</a></li>
+						<li><a href="#">Alojamiento web</a></li>
+						<li><a href="#">Dominios</a></li>
+					</ul>
+				</li>
+
+				<li class="item-submenu" menu="2">
+					<a href="#"><span class="fa fa-shopping-bag icon-menu"></span>Tienda</a>
+					<ul class="submenu">
+						<li class="title-menu"><span class="fa fa-shopping-bag icon-menu"></span>Tienda</li>
+						<li class="go-back">Atras</li>
+
+						<li><a href="#">Laptops</a></li>
+						<li><a href="#">Smarphones</a></li>
+						<li><a href="#">Consolas de viejuegos</a></li>
+					</ul>
+				</li>
+
+				<li><a href="#"><span class="fa fa-envelope icon-menu"></span>Contacto</a></li>
+				<li><a href="#"><span class="fa fa-tag icon-menu"></span>Blog</a></li>
+			</ul>
+		</nav>
+	</header>
+	  
   <!-- Menú superior -->
-  <nav id="navbar" class="navbar">
-    <!-- Contenido izquierda -->
-    <div class="navbar__container navbar__container-left">
-      <a class="navbar__link navbar__button-left navbar__button-disabled">
-        <i class='bx bx-menu bar__icono-left'></i>
-      </a>
-    </div>
-    <!-- Contenido derecha -->
-   
-  </nav>
+
   <!-- Contenido de la página -->
   <main id="main" class="main">
     <!-- Sección sobre el proyecto -->
