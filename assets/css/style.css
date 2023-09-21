@@ -22,7 +22,7 @@ section {
     display: flex;
     flex-flow: column nowrap;
     border: #0D0C0C;
-    width:100%;
+    width:95%;
 }
 
 p {
