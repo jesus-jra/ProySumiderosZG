@@ -34,6 +34,7 @@ sections.push(document.getElementById("b1"));
 sections.push(document.getElementById("b2"));
 sections.push(document.getElementById("b3"));
 sections.push(document.getElementById("b4"));
+sections.push(document.getElementById("b5"));
 
 sections.push(document.getElementById("c1"));
 sections.push(document.getElementById("c2"));
