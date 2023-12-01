@@ -35,6 +35,20 @@ sections.push(document.getElementById("b2"));
 sections.push(document.getElementById("b3"));
 sections.push(document.getElementById("b4"));
 
+sections.push(document.getElementById("c1"));
+sections.push(document.getElementById("c2"));
+sections.push(document.getElementById("c3"));
+sections.push(document.getElementById("c4"));
+
+sections.push(document.getElementById("d1"));
+sections.push(document.getElementById("d2"));
+sections.push(document.getElementById("d3"));
+sections.push(document.getElementById("d4"));
+sections.push(document.getElementById("d5"));
+sections.push(document.getElementById("d6"));
+sections.push(document.getElementById("d7"));
+
+
 sections.push(document.getElementById("components"));
 sections.push(document.getElementById("downloads"));
 window.addEventListener("scroll", scrollBehavior, { passive: true });
